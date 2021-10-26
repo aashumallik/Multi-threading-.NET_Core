@@ -21,7 +21,7 @@ namespace threading
             {
                 Name = "Thread3"
             };
-            //Executing the methods
+            //starting the methods
             t1.Start();
             t2.Start();
             t3.Start();
