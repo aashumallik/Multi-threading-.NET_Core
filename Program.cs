@@ -45,10 +45,10 @@ namespace threading
                 Console.WriteLine("Method2 :" + i);
                 if (i == 3)
                 {
-                    Console.WriteLine("Performing the Database Operation Started");
+                    Console.WriteLine("Database Operation Started");
                     //Sleep for 10 seconds
                     Thread.Sleep(10000);
-                    Console.WriteLine("Performing the Database Operation Completed");
+                    Console.WriteLine("Database Operation Completed" + Thread.CurrentThread.Name);
                 }
             }
             Console.WriteLine("Method2 Ended using " + Thread.CurrentThread.Name);
