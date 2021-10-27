@@ -46,8 +46,8 @@ namespace threading
                 if (i == 3)
                 {
                     Console.WriteLine("Database Operation Started");
-                    //Sleep for 10 seconds
-                    Thread.Sleep(10000);
+                    //Sleep for 5 seconds
+                    Thread.Sleep(5000);
                     Console.WriteLine("Database Operation Completed" + Thread.CurrentThread.Name);
                 }
             }
